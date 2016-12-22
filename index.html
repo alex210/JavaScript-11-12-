@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="script/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery.carousel.js"></script>
+    <script type="text/javascript" src="script/tmpl.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+    <link rel="stylesheet" href="style/jquery.carousel.css">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    
+    <div class="carousel-wrapper">
+      <ul>
+        <li><img src="img/белая.jpg"><p>белая акула</p></li>
+        <li><img src="img/тигровая.jpg"><p>тигровая акула</p></li>
+        <li><img src="img/мако.jpg"><p>акула-мако</p></li>
+        <li><img src="img/рифовая.jpg"><p>рифовая акула</p></li>
+        <li><img src="img/голубая.jpg"><p>голубая акула</p></li>
+        <li><img src="img/бык.jpg"><p>акула-бык</p></li>
+        <li><img src="img/длиннокрылая.jpg"><p>длиннокрылая акула</p></li>
+        <li><img src="img/лимонная.jpg"><p>лимонная акула</p></li>
+        <li><img src="img/молот.jpg"><p>акула-молот</p></li>
+        <li><img src="img/китовая.jpg"><p>китовая акула</p></li>
+      </ul>
+    </div>
+
+  <div class="template">
+    <script type="text/template" id='info'>
+      <p>Ваше имя: <span><%= name %></span></p>
+      <p>Ваша фамилия: <span><%= surname %></span></p>
+      <p>Ваш город: <span><%= city %></span></p>
+      <p>Ваш возраст: <span><%= age %></span></p>
+    </script>
+  </div>
+
+  </body>
+</html>

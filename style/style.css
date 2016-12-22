@@ -1,0 +1,17 @@
+.template {
+  clear: both;
+  background: rgba(59, 58, 53, 0.1);
+  position: absolute;
+  top: 250px;
+}
+
+.template p {
+  font: 900 20px Arial, sans-serif;
+  color: #3B3030;
+  margin: 20px;
+}
+
+.template p span {
+  font: italic 20px Arial, sans-serif;
+  color: #3B3030;
+}
